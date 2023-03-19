@@ -1,0 +1,68 @@
+img {
+  max-width: 98%;
+  box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
+  margin: 1em 0 2.5em 1em
+}
+
+.logo {
+   margin:.5em 0 0 1em; 
+   padding:0 2em 0 0 ;
+   box-shadow: none;
+}
+
+.pagelogo {background-color:white; }
+
+img.headerimage {
+   padding: 0;
+   margin: 0; 
+	-webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	box-shadow: none!important;
+	}
+
+img.endimage {
+   background-color:white;
+   -webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	box-shadow: none!important;
+}
+
+.wy-nav-content-wrap {background-color: white;}
+
+h2 {
+   border-bottom: 1px solid grey;
+}
+
+h1  {
+   background-color: rgb(228, 220, 220);
+   padding: .2em;
+}
+
+body {width:90%; background-color: white;}
+
+pre {font-size: 120%; font-family: verdana;}
+
+div.highlight {
+   font-size: 120%;
+}
+
+div.highlight-default {
+   font-size: 120%;
+}
+
+div.notranslate {font-size: 120%;
+}
+
+@media screen and (min-width: 767px) {
+
+   .wy-table-responsive table td {
+      /* !important prevents the common CSS stylesheets from overriding
+         this as on RTD they are loaded after this stylesheet */
+      white-space: normal !important;
+   }
+
+   .wy-table-responsive {
+      overflow: visible !important;
+   }
+}
+	
